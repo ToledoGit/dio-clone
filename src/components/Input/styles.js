@@ -10,7 +10,7 @@ export const InputContainer = styled.div`
 
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 `;
 
 export const ErrorText = styled.p`
