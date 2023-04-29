@@ -29,6 +29,7 @@ export const ButtonContainer = styled.button<IButtonStyled>`
         font-size:16px;
         line-height:25px;
         font-weight:400;
+        margin-top:10px;
 
         background: #E4105D;
 
@@ -41,7 +42,7 @@ export const ButtonContainer = styled.button<IButtonStyled>`
             content: '';
             position: absolute;
             border: 1px solid #E4105D;
-            top: -5px;
+            top: -6px;
             left: -6px;
             width: calc(100% + 10px);
             height: calc(100% + 10px);

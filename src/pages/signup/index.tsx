@@ -27,7 +27,7 @@ import { IFormData } from "./types";
 const schema = yup.object({
   email: yup.string().email('Email não é válido').required('Campo obrigatório'),
   password: yup.string().min(4, 'A senha deveconter no mínimo 4 caracteres').required('Campo obrigatório'),
-  nome: yup.string().min(5,'Digite o seu nome completo').required(),
+  nome: yup.string().min(5,'Digite o seu nome completo').required('Campo obrigatório'),
 }).required();
 
 const SignUp = () => {
